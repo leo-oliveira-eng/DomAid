@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0; net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackageId>DomAid</PackageId>
+	<AssemblyName>DomAid</AssemblyName>
+	<RootNamespace>DomAid</RootNamespace>
+	<Authors>Leonardo de Oliveira (leo.oliveira.eng@outlook.com)</Authors>
+	<Description>DomAid is a lightweight .NET library that simplifies building clean, maintainable domain layers using DDD principles and the Mediator pattern.</Description>
+	<RepositoryUrl>https://github.com/leo-oliveira-eng/DomAid</RepositoryUrl>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+	<PackageProjectUrl>https://github.com/leo-oliveira-eng/DomAid</PackageProjectUrl>
+	<RepositoryType>git</RepositoryType>
+	<NeutralLanguage />
+	<PackageTags>DDD Mediator</PackageTags>
+	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+</Project>
