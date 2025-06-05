@@ -21,6 +21,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<None Include="../../LICENSE" Pack="true" PackagePath="/" />
+	<None Include="../../images/logo_01.png" Pack="true" PackagePath="$(PackageIcon)" />
+	<None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Funcfy" Version="0.2.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
   </ItemGroup>
