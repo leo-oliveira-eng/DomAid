@@ -1,10 +1,4 @@
-<p align="center">
-      <img  
-        alt="DomAid is a lightweight .NET library that simplifies building clean, maintainable domain layers using DDD principles and the Mediator pattern." 
-        src="https://github.com/leo-oliveira-eng/DomAid/blob/main/images/logo.png"
-        height="400px"
-      />
-</p>
+![DomAid is a lightweight .NET library that simplifies building clean, maintainable domain layers using DDD principles and the Mediator pattern.](https://github.com/leo-oliveira-eng/DomAid/blob/main/images/logo.png)
 
 # DomAid
 

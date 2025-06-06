@@ -18,6 +18,7 @@
 	<PackageTags>DDD Mediator</PackageTags>
 	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageIcon>logo_01.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
