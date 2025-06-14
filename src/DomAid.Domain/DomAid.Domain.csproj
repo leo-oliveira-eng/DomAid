@@ -18,7 +18,14 @@
 	<PackageTags>DDD Mediator</PackageTags>
 	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageIcon>logo_01.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="../../LICENSE" Pack="true" PackagePath="/" />
+	<None Include="../../images/logo_01.png" Pack="true" PackagePath="$(PackageIcon)" />
+	<None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Funcfy" Version="0.2.0" />
