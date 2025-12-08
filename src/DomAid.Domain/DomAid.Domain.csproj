@@ -29,7 +29,7 @@
 
   <ItemGroup>
     <PackageReference Include="Funcfy" Version="0.2.0" />
-    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
   </ItemGroup>
 
 </Project>
